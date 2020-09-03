@@ -38,10 +38,10 @@ def get_long_description():
 
 
 setup(
-    name='pybadges',
-    version='2.3.0',  # Also change in version.py.
-    author='Brian Quinlan',
-    author_email='brian@sweetapp.com',
+    name='pybadges-trend',
+    version='1.0.0',  # Also change in version.py.
+    author='Rahul Jha',
+    author_email='rj722@protonmail.com',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
@@ -76,4 +76,4 @@ setup(
     },
     license='Apache-2.0',
     packages=["pybadges"],
-    url='https://github.com/google/pybadges')
+    url='https://github.com/rahul-deepsource/pybadges-trend')

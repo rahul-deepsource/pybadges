@@ -2,7 +2,14 @@
 ![pypi](https://img.shields.io/pypi/v/pybadges.svg)
 ![versions](https://img.shields.io/pypi/pyversions/pybadges.svg)
    
-# pybadges
+# pybadges-trend
+
+pybadges-trend is a fork of the [pybadges][pybadges] library by Brian Quinlan.
+Changes from this fork have been [put forward to be merged into the upstream
+library](https://github.com/google/pybadges/pull/24). However, since there
+wasn't a response from Brian, and I wanted to use this version, I'm releasing
+it separately on PyPI. If these changes are merged upstream, at some point, I
+shall archive this fork.
 
 pybadges is a Python library and command line tool that allows you to create
 Github-style badges as SVG images. For example:
@@ -11,7 +18,12 @@ Github-style badges as SVG images. For example:
 ![pip installation](tests/golden-images/license.svg)
 ![pip installation](tests/golden-images/build-passing.svg)
 
-The aesthetics of the generated badges matches the  visual design found in this
+In addition to what pybadges allows, pybadges-trend also supports embedding an
+optional image (110 x 14) in between the left and right text. Here's an example:
+
+![Downloads](tests/golden-images/downloads.svg)
+
+The aesthetics of the generated badges matches the visual design found in this
 [specification](https://github.com/badges/shields/blob/master/spec/SPECIFICATION.md).
 
 The implementation of the library was heavily influenced by
@@ -176,3 +188,5 @@ We use [SemVer](http://semver.org/) for versioning.
 This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details
 
 This is not an officially supported Google product.
+
+[pybadges]: https://github.com/google/pybadges
